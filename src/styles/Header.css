@@ -1,0 +1,29 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.Search-bar{
+    display: flex;
+}
+.buttonPage{
+    padding: 10px;
+    font-size: 1.3em;
+    margin-left: 8px;
+    background-color: rgb(0, 180, 0);
+    box-shadow: 1px 1px 10px rgb(63, 255, 15);
+    border: 2px solid rgb(63, 255, 15);
+    border-radius: 2px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(223, 223, 223);
+}
+
+@media (max-width:450px) {
+    .Header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

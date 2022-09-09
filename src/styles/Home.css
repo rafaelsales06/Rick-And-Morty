@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: url(https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-rick-and-morty-wallpapers-top-rick-and-6.jpg);
+    background-size: cover;
+}
+.Home{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.Characters-cards{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+    color: white;
+}
+.Characters-cards{
+    background: rgba(255, 255, 255, 0.082);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 40px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.Characters-descri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Characters-box{
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+img{
+    width: 250px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
